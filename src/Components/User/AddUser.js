@@ -28,8 +28,7 @@ const InputAgeRef = useRef()
 
 const  addUserHandler = (event) => {
 number = Math.trunc(Math.random()*arr2.length)
-// const  enterdUserName = InputNameRef.current.value
-// const  enterdUserAge =  InputAgeRef.current.value 
+
 
 event.preventDefault()
 if(!enterdUserName.trim().length || !+enterdUserAge){
