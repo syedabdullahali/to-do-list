@@ -1,0 +1,22 @@
+
+.parent{
+padding: 0% 2%;
+height: 70px;
+width: 42% ;
+margin: 10px auto;
+}
+
+.parent ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.parent >ul > li  {
+   font-size: 18px;
+   font-weight: 500;
+   text-decoration-style: none;
+   list-style-type: none;
+}
